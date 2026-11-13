@@ -1,6 +1,8 @@
 # JBurdik/homebrew-tap
 
 ```sh
+brew tap jburdik/tap
+brew trust jburdik/tap          # newer Homebrew asks you to trust third-party taps once
 brew install --cask jburdik/tap/crazy-delivery
 ```
 
