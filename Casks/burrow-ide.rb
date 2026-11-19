@@ -10,6 +10,7 @@ cask "burrow-ide" do
   # The app updates itself (src-wails/updater.go); brew must not fight it.
   auto_updates true
   depends_on arch: :arm64
+  depends_on macos: ">= :monterey"
 
   app "Burrow.app"
 end
