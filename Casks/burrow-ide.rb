@@ -1,6 +1,6 @@
 cask "burrow-ide" do
-  version "1.4.1"
-  sha256 "4c0d4af5904bae2aa88ded57745b4b0a902f8cb0a843e137bb658b9ddb0def8e"
+  version "1.4.2"
+  sha256 "e1b9463ae9171f65c32cd46cb4b6ec31a3f32a2706b93e4bb3fa94fad47ad04a"
 
   url "https://github.com/JBurdik/burrow-wails/releases/download/v#{version}/Burrow_#{version}_aarch64.dmg"
   name "Burrow"
