@@ -1,6 +1,6 @@
 cask "burrowbar" do
-  version "0.1.0"
-  sha256 "2e325ad2e253dab0f067a0b05c1169fae43910ed46c3f0bbb23cadb42a9d4de0"
+  version "0.2.0"
+  sha256 "d55da6536096bda991d5daa6e85f77ad7bfd10d20a41449d5b3823929f817f3e"
 
   url "https://github.com/JBurdik/homebrew-tap/releases/download/burrowbar-v#{version}/Burrowbar-mac.zip"
   name "Burrowbar"
@@ -11,6 +11,8 @@ cask "burrowbar" do
   depends_on macos: :monterey
 
   app "Burrowbar.app"
+  binary "#{appdir}/Burrowbar.app/Contents/MacOS/Burrowbar", target: "burrowutils"
+  binary "#{appdir}/Burrowbar.app/Contents/MacOS/Burrowbar", target: "bu"
 
   uninstall quit: "dev.burrowbar.app"
 
