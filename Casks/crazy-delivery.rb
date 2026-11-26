@@ -1,6 +1,6 @@
 cask "crazy-delivery" do
-  version "0.7.1"
-  sha256 "1e089fc931625d59d7a6c8236f29d0cb23ac3c0b50fa3af594167355c8c6c49e"
+  version "0.7.2"
+  sha256 "ebbbeb758b8c6b1474012830c06da219e0b8d20dec21c0b858a4ccbedbd04dac"
 
   url "https://github.com/JBurdik/homebrew-tap/releases/download/crazy-delivery-v#{version}/Crazy-Delivery-mac.zip"
   name "Crazy Delivery"
